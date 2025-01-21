@@ -15,13 +15,35 @@
          <input type="text" id="name" name = "name" placeholder="Full Name"> <br>
 
          <label for = email > Email: </label>
-         <input type="text" id="email" name = "email" placeholder="name@pdx.edu"> <br>
+         <input type="email" id="email" name = "email" placeholder="name@pdx.edu"> <br> <br>
                  
-    
-         <form> 
-          <p><strong>Favorite character</strong></p>
+          <fieldset> 
+            <legend> Favorite Character</legend>
 
-        </form>
+
+            <input type="radio" id="SpongeBob" name="Character"> 
+            <label for = "SpongeBob"> SpongeBob </label> <br>
+
+            <input type="radio" id="Sandy" name="Character"> 
+            <label for = "Sandy"> Sandy </label> <br>
+
+            <input type="radio" id="Patrick" name="Character"> 
+            <label for = "Patrick"> Patrick </label> <br>
+
+
+
+
+          </fieldset> <br>
+
+          <fieldset>
+            <legend> Are you a fan of the show </legend>
+            <input type = "checkbox" id = "Watched all shows" name="watched">
+            <label for = "Watched all shows"> Yes, I have watched all episodes! </label> <br>
+
+            <input type = "checkbox" id = "Memes" name="checkbox">
+            <label for = "Memes"> Yes, it's got the best memes </label>
+          </fieldset> <br>
+
 
          <button type="button"> Submit </button>
          <button type="reset"> reset </button>
