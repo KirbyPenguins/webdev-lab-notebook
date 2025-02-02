@@ -42,6 +42,7 @@ nav ul.menu li#first a:not([class='visited']) {
 div ol li ul li ol li ul li a {
 }
 ```
+The answers will be on the bottom of the specificity.css
 
 ## <a id="ex04"></a> Exercise 04 - Layout
 
