@@ -26,3 +26,5 @@ For Week 3 the CSS excersises were a lot harder! I them without any help and the
 
 
 For Week 4 flex blox I had a really hard time with the last one. I had to switch the height to 400px instead of 300px this is because for some weird reason it wouldnt work properly with 300. Other than that flex boxes are great and I will implement them in my project.
+
+For Week 5 and 6 we were also working with css and how the implementation works. I found them a little difficult at first but I kept on perservering. Bootstrap is really cool and I think that when I will be working on the final project I will be working with bootstrap. I found flexbox really hard. I think that I need to work a little more in order to be pretty capible with grids. I first tried to do grids by myself and I was not able to. I had to rely on the videos and I found them really intresting. 
