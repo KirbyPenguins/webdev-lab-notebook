@@ -20,22 +20,25 @@ const characters = [
 ];
 
 const mapNameFamily = (characters) => {
-  // Return an array with the name and house of each character
-  // Format: "Arya, of House Stark"
-
-  return characters;
+  const result = characters.map(item => `${item.name}, of House ${item.house}`);
+  return result;
 };
 
 const filterFamily = (characters, house) => {
   // Return an array with only the characters from a given house
-
-  return characters;
+  const result = characters.filter(item => item.house === house);
+  return result;
 };
 
 const reduceHouses = (characters) => {
   // Return an object with the number of characters from each house
 
-  return characters;
+  const result = characters.reduce((houses, item) => {
+    houses.hasOwnProperty(item.house) ? houses[item.house]++ : houses[item.house] = 1;
+    return houses;
+  }
+  , {});
+  return result;
 };
 
 console.log(mapNameFamily(characters));
@@ -59,6 +62,7 @@ console.log(mapNameFamily(characters));
 //   'Davos, of House Seaworth',
 //   'Brienne, of House Tarth'
 // ]
+
 
 console.log(filterFamily(characters, 'Stark'));
 // [
