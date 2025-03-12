@@ -2,7 +2,7 @@
 
 :root {
   --darkmagenta: #8b008b;
-  --magenta: #ff00ff;
+  --magenta: #ff0bff;
   --royalblue: #4169e1;
   --teal: #008080;
   --violet: #9400d3;
@@ -27,7 +27,7 @@
 }
 
 .hedgehog{
-  color: var(--magenta)
+  color: var(--darkmagenta)
 }
 
 .cat.dog.parrot{
