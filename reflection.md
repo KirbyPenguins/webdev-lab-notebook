@@ -34,4 +34,6 @@ For Week 5 and 6 we were also working with css and how the implementation works.
 
 ## Java
 
-For Week 7 Javascript I had to rely a lot on the videos. on the videos for exercise 4 and 5. I found that they were a little helpful, I think in the future they should be more focused towards assignment #3 since I had to do a lot more research to understand the javascript more. I do not think that there are any other excersise that would have helped me more, perhaps maybe more excersise with button handeling. 
+For Week 7 Javascript I had to rely a lot on the videos. on the videos for exercise 4 and 5. I found that they were a little helpful, I think in the future they should be more focused towards assignment #3 since I had to do a lot more research to understand the javascript more. I do not think that there are any other excersise that would have helped me more, perhaps maybe more excersise with button handeling or maybe more. 
+
+PLEASE NOTE JQUERY is not done because I assumed that we did not have to work on it since you told us that it was not assigned. 
